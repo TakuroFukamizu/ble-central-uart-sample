@@ -13,6 +13,8 @@
 		3C8C07AC26061602004478F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8C079726061600004478F0 /* ContentView.swift */; };
 		3C8C07AD26061602004478F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8C079826061602004478F0 /* Assets.xcassets */; };
 		3C8C07AE26061602004478F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8C079826061602004478F0 /* Assets.xcassets */; };
+		3C8C07BA26061D71004478F0 /* BluetoothService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8C07B926061D71004478F0 /* BluetoothService.swift */; };
+		3C8C07BB26061D71004478F0 /* BluetoothService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8C07B926061D71004478F0 /* BluetoothService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		3C8C07A526061602004478F0 /* ble-central-service.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ble-central-service.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8C07A726061602004478F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C8C07A826061602004478F0 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		3C8C07B926061D71004478F0 /* BluetoothService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 				3C8C079626061600004478F0 /* ble_central_serviceApp.swift */,
 				3C8C079726061600004478F0 /* ContentView.swift */,
 				3C8C079826061602004478F0 /* Assets.xcassets */,
+				3C8C07B926061D71004478F0 /* BluetoothService.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -187,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C8C07BA26061D71004478F0 /* BluetoothService.swift in Sources */,
 				3C8C07AB26061602004478F0 /* ContentView.swift in Sources */,
 				3C8C07A926061602004478F0 /* ble_central_serviceApp.swift in Sources */,
 			);
@@ -196,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C8C07BB26061D71004478F0 /* BluetoothService.swift in Sources */,
 				3C8C07AC26061602004478F0 /* ContentView.swift in Sources */,
 				3C8C07AA26061602004478F0 /* ble_central_serviceApp.swift in Sources */,
 			);
